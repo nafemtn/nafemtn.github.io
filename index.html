@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Lena Martin portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/png" sizes="16x16" href="img/avatars.svg">
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+</head>
+
+<body>
+
+    <div class="loader-container">
+
+        <div class="loader">
+        </div>
+    
+    </div>
+
+<header>
+
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #1e1e1e;  heigh:50">
+        <a class="navbar-brand" href="index.html">
+            <img src="img/avatars.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" style="background-color:white">
+            <span class="navbar-toggler-icon" ></span>
+        </button>
+        <div class="collapse navbar-collapse navbar-light" id="navbarNavAltMarkup">
+            <ul class="navbar-nav navbar-nav-scroll">
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#projets"> Mes projets </a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link text-white" href="#about"> Qui suis-je ? <span class="sr-only"> 
+                (current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" target="_blank"  href="img/cv/martinLenaCV.pdf" > Télécharger mon CV </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+</header>
+
+    <section id="home">
+
+        <div >
+            <p class="text-center mt-5 pt-5 pb-5 bjr text-white">
+                Bonjour ! Moi c'est <span class="color"> Léna </span>
+            </p>
+        </div>
+
+        <div>
+        <h1 class="d-flex justify-content-center text-white mb-4" > Developpeuse Web &nbsp; Junior &nbsp; Fullstack </h1>
+        </div> 
+
+        <div class="img">
+        <div class="avatar ">
+            <img class="d-block mx-auto" src="img/avatars.svg" alt="image d'accueil" width="170">
+        </div>
+            <div class="cercle"></div>
+        </div>
+
+        <img class="code mb-5" src="img/name.png" alt="image d'accueil" width="100%">
+
+    </section>
+
+    <section id="projets">
+
+    <div class="bg">
+    
+        <div class="projets">
+            <h2 class="d-flex justify-content-center text-white pt-5 pt-5 mb-3"> Mes projets </h2>
+        </div>
+        
+        <div class="row">
+
+            <div class="card m-5" style="width: 18rem;">
+                <img class="card-img-top" src="img/screen/rpg.png" alt="Card image cap">
+                <div class="card-body">
+                    <p class="card-text text-center"> RPG role playing game </p>
+                    <p class="card-text text-center"> Jeu de rôle réalisé uniquement en ligne de commande en C.  </p>
+                </div>
+            </div>
+
+            <div class="card m-5" style="width: 18rem;">
+                <img class="card-img-top" src="img/screen/bb.png" alt="Card image cap">
+                <div class="card-body">
+                    <p class="card-text text-center"> Bubble my tea </p>
+                    <p class="card-text text-center"> Site e-commerce réaliser en laravel en back, tailwind en front et avec mysql pour la relation avec notre base de donnée. Mise en place d'une page admin pour ajouter/modifier/supprimer un produit. </p>
+                </div>
+            </div>
+
+            <div class="card m-5" style="width: 18rem;">
+                <img class="card-img-top" src="img/screen/Capture d’écran 2021-09-10 à 14.51.57.png" alt="Card image cap">
+                <div class="card-body">
+                    <p class="card-text text-center"> <a href="https://www.joemondouble.com/" target="_blank"> Joe Mon Double </a> </p>
+                    <p class="card-text text-center">Projet réalisé en groupe pour une StartUp <p>
+                        <p> Joe Mon Double est un projet sur 3 applications réalisé avec Angular8, Symfony5 et API Rest. Avec également la mise en place du système de paiement stripe.  </p>
+                </div>
+            </div>
+
+            <div class="card m-5" style="width: 18rem;">
+                <img class="card-img-top" src="img/screen/Capture d’écran 2021-09-09 à 23.35.38.png" alt="Card image cap">
+                <div class="card-body">
+                    <p class="card-text text-center"> Pokedex </p>
+                    <p class="card-text text-center">
+                        Application web réalisé avec angular8 et une API externe afin de récupérer des données et les stocker sur FireBase. </p>
+                </div>
+            </div>
+
+            <div class="card m-5" style="width: 18rem;">
+                <a href="donkair/Donkair/"> Donkair </a>
+                <img class="card-img-top" src="img/screen/Capture d’écran 2021-09-09 à 23.35.02.png" alt="Card image cap">
+                <div class="card-body">
+                    <p class="card-text text-center"> Donkair </p>
+                    <p class="card-text text-center"> 
+                        Simulation d'un site de réservation de vol en PHP en faisant appel à une base de donnée, ici MySQLWorkbench </p>
+                </div>
+            </div>
+
+            <div class="card m-5" style="width: 18rem;">
+                <img class="card-img-top" src="img/screen/Capture d’écran 2021-09-09 à 23.13.55.png" alt="Card image cap">
+                <div class="card-body">
+                    <p class="card-text text-center"> Ma bibliothéque </p>
+                    <p class="card-text text-center"> Application réalisée en PHP. <br/> Afficher une liste de livres où l'utilisateur peut en ajouter, modifier ou supprimer des livres.</p>
+                </div>
+            </div>
+
+            <div class="card m-5" style="width: 18rem;">
+                <img class="card-img-top" src="img/screen/Capture d’écran 2021-09-07 à 23.06.37.png" alt="Card image cap">
+                <div class="card-body">
+                    <p class="card-text text-center"> Agency </p>
+                    <p class="card-text text-center"> Site statique en HTML/CSS responsive</p>
+                </div>
+            </div>
+
+            <div class="card m-5" style="width: 18rem;">
+                <img class="card-img-top" src="img/screen/Capture d’écran 2021-09-07 à 23.05.55.png" alt="Card image cap">
+                <div class="card-body">
+                    <p class="card-text text-center"> Alivio </p>
+                    <p class="card-text text-center"> Site statique en HTML/CSS </p>
+                </div>
+            </div>
+        
+    </div>
+
+    </section>
+
+    <section id="about">
+
+        <div class="bgAbout">
+    
+            <div class="contenant">
+                <h2 class="d-flex justify-content-center  pt-3 titlePropos color"> A mon propos </h2>
+            </div>
+                
+                <div class="propos text-center">
+                    <p>
+                        Après des études orientés sur le management et la gestion d'entreprise avec pour objectif de réaliser mon projet professionnel (ouvrir un salon de thé), j'ai eu l'occasion d'avoir un salon en gérance pendant un certain temps. Malheureusement j'ai du arrêter mon activité à cause du covid. Ayant toujours était à l'aise en informatique j'ai tout naturellement décidé de me réorienter vers ce domaine. J'ai donc suivis une formation de type bootcamp de 7 mois, ou j'ai découvert les bases de la programmation web avec HTML / CSS / JAVASCRIPT / PHP et les Framework symfony5 et Angular8. A la suite de cette formation, j'ai intégrer l'école informatique "ETNA" afin d'approfondir ma formation. Aujourd'hui je suis actuellement en bachelor conceptrice de projets SI en alternance dans une StartUp en tant que cheffe de projet. 😃 <br>
+                    </p>
+                 </div>
+    
+    </section>
+
+<footer id="contact">
+
+    <div class="text-center pt-3">
+        <ul>
+            <li>
+                <p class="text-white">
+                    <a target="_blank" href="mailto:martin_p@etna-alternance.net" class="text-white">
+                    <img src="img/icons/email.png" width="30" height="30" alt=""> 
+                    &nbsp;martin_p@etna-alternance.net&nbsp;</p>  </a>
+            </li>
+            <li>
+                <p class="text-white">
+                    <a target="_blank" href="https://github.com/nafemtn" class="text-white">
+                    <img src="img/icons/github.png" width="30" height="30" alt=""> 
+                    &nbsp;nafemtn&nbsp;</p>  </a>
+            </li>
+            <li>
+                <p class="text-white">
+                    <a target="_blank" href="https://www.linkedin.com/in/lena-martin/" class="text-white">
+                    <img src="img/icons/linkedin.png" width="30" height="30" alt=""> 
+                    &nbsp;Lena Martin&nbsp;</a>
+            </li>
+            <li> 
+            </li>
+        </ul>
+    </div>
+
+</footer>
+
+
+<script src="app.js"></script>
+</body>
+
+</html>
